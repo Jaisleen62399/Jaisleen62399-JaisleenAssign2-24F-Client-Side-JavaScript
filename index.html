@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Your Smoothie!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Order Your Smoothie!</h1>
+
+        <form id="smoothie-form">
+            <div class="form-section">
+                <label for="base">Choose your base:</label>
+                <select id="base" name="base">
+                    <option value="Almond Milk">Almond Milk</option>
+                    <option value="Soy Milk">Soy Milk</option>
+                    <option value="Oat Milk">Oat Milk</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label for="fruits">Choose your fruits:</label>
+                <select id="fruits" name="fruits" multiple>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Mango">Mango</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label for="add-ins">Add-ins:</label>
+                <select id="add-ins" name="add-ins" multiple>
+                    <option value="Protein Powder">Protein Powder</option>
+                    <option value="Chia Seeds">Chia Seeds</option>
+                    <option value="Honey">Honey</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label for="size">Choose a size:</label>
+                <select id="size" name="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+            </div>
+
+            <button type="submit">Order Smoothie</button>
+        </form>
+
+        <div id="order-summary" class="order-summary"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
