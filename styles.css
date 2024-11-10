@@ -65,4 +65,28 @@ button {
 button:hover {
     background-color: #45a049;
 }
+/* Order summary section */
+#order-summary {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+#order-summary h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#order-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#order-summary li {
+    font-size: 16px;
+    color: #333;
+}
 
